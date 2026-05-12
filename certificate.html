@@ -3,51 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trixy's Portfolio - Home</title>
+  <title>Trixy's Portfolio - Certificates</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-
   <nav class="navbar">
     <ul>
-        <div class="site-title">
-    <h1>Trixy</h1>
+       <div class="site-title"> <h1>Trixy</h1>
   </diV>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="certificate.html">Certificates</a></li>
+      <li><a href="certificate.html" class="active">Certificates</a></li>
       <li><a href="photos.html">Photos</a></li>
     </ul>
   </nav>
 
-  <header class="hero">
-    <h1>Hi, I'm Trixy 🌸</h1>
-    <p>Information Technology Student</p>
-    <img src="images/pf.jpg" alt="My Profile Picture" class="profile-img-home">
-  </header>
-
-  <section class="section">
-    <h2>Introduction</h2>
-    <div class="intro-card">
-      <p>
-        I’m Trixy, an Information Technology student passionate about making 
-        technical information clear and accessible. My portfolio blends pastel 
-        design with interactive effects, showcasing both academic achievements 
-        and creative projects.
-      </p>
+  <section class="certificates-section">
+    <div class="certificate-gallery">
+      <a href="#cert1"><img src="images/cert1.jpg" alt="Certificate 1"></a>
+      <a href="#cert2"><img src="images/cert2.jpg" alt="Certificate 2"></a>
+      <a href="#cert3"><img src="images/cert3.jpg" alt="Certificate 3"></a>
     </div>
   </section>
 
-  <section class="section">
-    <h2>My Hobbies</h2>
-    <div class="card-grid">
-      <div class="card">🏸 Playing Badminton</div>
-      <div class="card">🎮 Video Games</div>
-      <div class="card">🍲 Cooking</div>
-      <div class="card">✈️ Travelling</div>
-    </div>
-  </section>
+  <div id="cert1" class="lightbox">
+    <a href="#" class="close">✖</a>
+    <img src="images/cert1.jpg" alt="Certificate 1">
+  </div>
+
+  <div id="cert2" class="lightbox">
+    <a href="#" class="close">✖</a>
+    <img src="images/cert2.jpg" alt="Certificate 2">
+  </div>
+
+  <div id="cert3" class="lightbox">
+    <a href="#" class="close">✖</a>
+    <img src="images/cert3.jpg" alt="Certificate 3">
+  </div>
+</section>
 
   <section class="section">
     <h2>About Us</h2>
@@ -65,11 +59,9 @@
       </form>
     </div>
   </section>
-
   <footer>
-    <p>© 2026 Trixy | Hosted on Netlify</p>
+    <p>© 2026 Trixy | All Rights Reserved.</p>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
